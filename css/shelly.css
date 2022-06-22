@@ -1,0 +1,31 @@
+body.colorful{
+	background: linear-gradient(-45deg, coral, hotpink, mediumslateblue, deepskyblue, lightgreen);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Poppins-Bold'; src: url("../font/Poppins-Bold.ttf");
+    color: antiquewhite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+a.pink{
+    color: antiquewhite;
+    font-style: italic;
+}
+main.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
